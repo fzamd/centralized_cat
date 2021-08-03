@@ -1,0 +1,37 @@
+.cat-bookList table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.cat-bookList table tbody td, .cat-bookList table thead th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.cat-bookList table tbody tr:nth-child(even){background-color: #f2f2f2;}
+
+.cat-bookList table tbody tr:hover {background-color: #ddd;}
+
+.cat-bookList table thead th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0483aa;
+    color: white;
+}
+
+.cat-bookDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.cat-bookDetails .cat-bookDetails-header .cat-bookDetails-info {
+    display: flex;
+}
+
+.cat-bookDetails table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
